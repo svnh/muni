@@ -4,7 +4,7 @@
   "description": "SF transportation app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/svnh/sftransportation/issues"
   },
-  "homepage": "https://github.com/svnh/sftransportation#readme"
+  "homepage": "https://github.com/svnh/sftransportation#readme",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
 }
