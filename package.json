@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/svnh/sftransportation#readme",
   "dependencies": {
-    "express": "^4.12.4"
+    "express": "^4.12.4",
+    "lodash": "^3.9.3",
+    "request": "^2.57.0",
+    "xmljson": "^0.2.0"
   }
 }
