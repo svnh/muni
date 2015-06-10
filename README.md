@@ -5,6 +5,8 @@
 1. [API]
   1. [Endpoints]
   1. [Parameters]
+1. [Development]
+  1. [Scripts]
 
 ### API
 **All API information taken from the [511 Reference]**
@@ -32,9 +34,20 @@ from the GetAgencies service
 
 Example: `http://localhost:3001/getNextDeparturesByStopCode?agencyName=SF-MUNI&stopCode=13735`
 
+### Development
+1. Install third party modules, run: `npm install && bower install`
+
+#### Scripts
+Command | Description
+--- | ---
+`npm start` | Configure app and start server
+`npm test` | Run server tests
+
 <!-- Links -->
 [API]: #api
 [511 Reference]: http://assets.511.org/pdf/RTT%20API%20V2.0%20Reference.pdf
 [Endpoints]: #endpoints
 [Endpoints]: #endpoints
 [Parameters]: #parameters
+[Development]: #development
+[Scripts]: #scripts
